@@ -141,37 +141,37 @@ A _flaky_ test is one that sometimes passes and sometimes fails, even if you hav
 
 1. **Avoid timing-based waits**
 
-Never rely on `time.sleep()` to wait for an event. Instead, use explicit waits or condition polling.
+   Never rely on `time.sleep()` to wait for an event. Instead, use explicit waits or condition polling.
 
-<code class="filepath">tests/test_login.py</code>
+   <code class="filepath">tests/test_login.py</code>
 
-```python
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+   ```python
+   from selenium.webdriver.common.by import By
+   from selenium.webdriver.support.ui import WebDriverWait
+   from selenium.webdriver.support import expected_conditions as EC
 
-def test_login(driver):
-    driver.get("http://localhost:8000/login")
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.ID, "submit"))
-    )
-    # Proceed with login test steps
-```
+   def test_login(driver):
+       driver.get("http://localhost:8000/login")
+       WebDriverWait(driver, 10).until(
+           EC.presence_of_element_located((By.ID, "submit"))
+       )
+       # Proceed with login test steps
+   ```
 
 2. **Use unique test data**
 
-Create unique identifiers or user data for each test run to prevent accidental data overlap.
+   Create unique identifiers or user data for each test run to prevent accidental data overlap.
 
 3. **Reset state before each test**
 
-Prepare a clean starting point. For example: wipe the test database or use fixtures for app state.
+   Prepare a clean starting point. For example: wipe the test database or use fixtures for app state.
 
 4. **Write parallel-safe tests**
 
-When running tests in parallel, ensure they do not try to use or modify the same files, ports, or data.
+   When running tests in parallel, ensure they do not try to use or modify the same files, ports, or data.
 
 5. **Use retry logic only as a last resort**
 
-Retries can mask real issues. Only use retries for genuinely unreliable external systems, and document the reason.
+   Retries can mask real issues. Only use retries for genuinely unreliable external systems, and document the reason.
 
 > 🏆 Flaky tests should be fixed, not just re-run. Reliable tests build trust in both your test suite and your release pipeline.

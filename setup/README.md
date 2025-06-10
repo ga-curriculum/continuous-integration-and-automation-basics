@@ -13,9 +13,9 @@ Go to [Github](https://github.com/) and sign into your account.
 
 Create a new repository named **`ci-and-automation-basics`**.
 
-    - Set the repo to **Public**
-    - ✅ Check the box to include a **README.md**
-    - You do **not** need a `.gitignore` file
+- Set the repo to **Public**
+- ✅ Check the box to include a **README.md**
+- You do **not** need a `.gitignore` file
 
 Using the `Quick Setup` option, clone your newly created repo into your new directory with the `git clone` command:
 
