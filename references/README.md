@@ -1,10 +1,9 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">CI & Automation Basics</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [Github Actions](https://docs.github.com/en/actions/writing-workflows/quickstart)
+- [pytest Docs](https://docs.pytest.org/en/stable/)

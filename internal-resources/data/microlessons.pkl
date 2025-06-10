@@ -9,23 +9,38 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+introductionToContinuousIntegration = new Template.Microlesson {
+  friendlyName = "Introduction to Continuous Integration"
+  dirName = "introduction-to-continuous-integration"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+settingUpACiPipeline = new Template.Microlesson {
+  friendlyName = "Setting Up a CI Pipeline"
+  dirName = "setting-up-a-ci-pipeline"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+managingCiEnvironments = new Template.Microlesson {
+  friendlyName = "Managing CI Environments"
+  dirName = "managing-ci-environments"
   type = "Content"
   videoUrl = ""
 }
+
+ciLogsAndTroubleshooting = new Template.Microlesson {
+  friendlyName = "CI Logs and Troubleshooting"
+  dirName = "ci-logs-and-troubleshooting"
+  type = "Content"
+  videoUrl = ""
+}
+
+writingCiCompatibleTests = new Template.Microlesson {
+  friendlyName = "Writing CI-Compatible Tests"
+  dirName = "writing-ci-compatible-tests"
+  type = "Content"
+  videoUrl = ""
+}
+

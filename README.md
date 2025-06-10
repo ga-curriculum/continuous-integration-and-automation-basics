@@ -1,21 +1,23 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">CI & Automation Basics</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module introduces the foundational concepts of Continuous Integration (CI) and the vital role of automated testing within deployment pipelines. Learners will explore the benefits of CI, understand how automation ensures code quality, and gain practical experience configuring and triggering automated tests in a CI environment.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                                       | Est. Delivery Time | Skills                                                                                                            |
+| -------------------------------------------------------------------------------------------- | :----------------: | ----------------------------------------------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                                   |       5 min        | Set up the development environment.                                                                               |
+| [Introduction to Continuous Integration](./introduction-to-continuous-integration/README.md) |       15 min       | Explain the purpose of Continuous Integration (CI) and how it supports test reliability and development velocity. |
+| [Setting Up a CI Pipeline](./setting-up-a-ci-pipeline/README.md)                             |       30 min       | Set up a basic CI pipeline using GitHub Actions to automatically run Python and Selenium tests.                   |
+| [Managing CI Environments](./managing-ci-environments/README.md)                             |       30 min       | Configure environment setup and dependency management in a CI workflow.                                           |
+| [CI Logs and Troubleshooting](./ci-logs-and-troubleshooting/README.md)                       |       15 min       | Interpret CI logs and test failures to troubleshoot issues effectively.                                           |
+| [Writing CI-Compatible Tests](./writing-ci-compatible-tests/README.md)                       |       15 min       | Apply best practices for writing CI-compatible tests and minimizing test flakiness.                               |
+| **Total content**                                                                            |      110 min       |                                                                                                                   |
 
 ## References
 
@@ -25,32 +27,13 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- TDD Fundamentals
+- Designing Robust Test Suites
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [PTR - Python Testing & Reliability](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/continuous-integration-and-automation-basics/canvas-landing-pages/ptr.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/continuous-integration-and-automation-basics/canvas-landing-pages/fallback.html)
 
 ### Resources
 
